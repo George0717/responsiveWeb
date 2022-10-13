@@ -4,6 +4,7 @@
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  animation: jedajedug 0.1s linear 1s infinite alternate;
 }
 
 /* Desktop */
@@ -154,5 +155,39 @@ h1 {
 
   [class*="col-lg-"] {
     float: left;
+  }
+}
+
+/* Animasi jedag jedug */
+@keyframes jedajedug {
+  10% {
+    background-color: aquamarine;
+  }
+  20% {
+    background-color: red;
+  }
+  30% {
+    background-color: blue;
+  }
+  40% {
+    background-color: gray;
+  }
+  50% {
+    background-color: black;
+  }
+  60% {
+    background-color: purple;
+  }
+  70% {
+    background-color: pink;
+  }
+  80% {
+    background-color: orange;
+  }
+  90% {
+    background-color: brown;
+  }
+  100% {
+    background-color: magenta;
   }
 }
